@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # VEP temporary or cache folders
 .vep/
@@ -17,18 +17,22 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Data
+# Data - large or intermediate files
 data/*.vcf
 data/*.vcf.gz
 data/*.vcf.idx
 data/*.tbi
+data/*.html
 data/*.annotated.txt
 data/*.annotated.vcf
 data/clinvar_bc_annotated.txt
-data/*.html
+data/benchmark_dataset.csv
+
+# Virtual environment
+venv/
 
 # Secret config or token files
 .env
 
-# Virtual environment
-venv/
+# GitHub Desktop backup
+*.orig
